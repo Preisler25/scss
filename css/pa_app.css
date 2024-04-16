@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pa {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+.pa header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+.pa header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pa header .header-container #btn-back {
+  background-color: #666;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pa main {
+  background-color: #666;
+  color: #fff;
+  padding: 1rem;
+}
+.pa main .main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pa main .main-container .main-content {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 40vw;
+  height: 80vh;
+  text-align: center;
+}
+.pa main .main-container .main-content .main-content-header {
+  margin-bottom: 2vh;
+  padding-bottom: 0.5vh;
+  border-bottom: 1px dashed #fff;
+}
+.pa main .main-container .main-content .main-content-body {
+  margin-top: 2vh;
+  padding-top: 0.5vh;
+}
+.pa main .main-container .main-content .main-content-body #img-holder img {
+  width: 35vw;
+  height: 60vh;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.pa main .main-container .main-content .main-content-body #btn-new {
+  margin-top: 3vh;
+  background-color: #666;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pa footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=pa_app.css.map */

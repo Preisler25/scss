@@ -1,0 +1,98 @@
+$primary-color: #333;
+$secondary-color: #666;
+$text-color: #fff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pa{
+    width: 100vw;
+    height: 100vh;
+    background-color: $primary-color;
+
+    header{
+        background-color: $primary-color;
+        color: $text-color;
+        padding: 1rem;
+        
+        .header-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            #btn-back{
+                background-color: $secondary-color;
+                color: $text-color;
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        
+    }
+
+    main{
+        background-color: $secondary-color;
+        color: $text-color;
+        padding: 1rem;
+
+        .main-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .main-content{
+                background-color: $primary-color;
+                color: $text-color;
+                padding: 1rem;
+                margin: 1rem;
+                border-radius: 5px;
+                width: 40vw;
+                height: 80vh;
+                text-align: center;
+
+                .main-content-header{
+                    margin-bottom: 2vh;
+                    padding-bottom: 0.5vh;
+                    border-bottom: 1px dashed $text-color;
+                }
+
+                .main-content-body{
+                    margin-top: 2vh;
+                    padding-top: 0.5vh;
+                    
+                    #img-holder{
+                        img{
+                            width: 35vw;
+                            height: 60vh;
+                            border-radius: 5px;
+                            object-fit: cover;
+                        }
+                       
+                    }
+                    #btn-new{
+                        margin-top: 3vh;
+                        background-color: $secondary-color;
+                        color: $text-color;
+                        padding: 0.5rem 1rem;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+    }
+
+    footer{
+        background-color: $primary-color;
+        color: $text-color;
+        padding: 1rem;
+}
+}
